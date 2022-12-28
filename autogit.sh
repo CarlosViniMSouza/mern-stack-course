@@ -1,4 +1,4 @@
 git add .
-git commit -m "backend folder -> index.js done"
+git commit -m "backend/api folder -> controllers & router done"
 git push
 git status
