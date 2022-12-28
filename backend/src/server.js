@@ -10,7 +10,7 @@ app.use(express.json());
 app.use("/api/v1/restaurants", restaurants);
 
 app.get('/', (req, res) => {
-    return res.send("Hello, world!");
+    return res.status(404).send({ error: 'Page Not Found' });
 });
 
 export default app;

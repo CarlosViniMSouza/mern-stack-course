@@ -6,13 +6,13 @@ let restaurants;
 
 export default class RestaurantsDAO {
 
-    static async injectDB(conn) {
+    static async injectDB(connection) {
 
         try {
-            restaurants = await conn.db(process.env.RESTREVIEWS_NS).collection("restaurants");
-        } catch (e) {
+            restaurants = await connection.db(process.env.RESTREVIEWS_NS).collection("restaurants");
+        } catch (errorCode) {
             console.error(
-                `Unable to establish a collection handle in restaurantsDAO: ${e}`,
+                `Unable to establish a collection handle in restaurantsDAO: ${errorCode}`,
             );
         }
     }

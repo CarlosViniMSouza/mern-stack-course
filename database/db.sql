@@ -1,1 +1,1 @@
-CREATE TABLE restaurant
+CREATE TABLE restaurantExampleSQL

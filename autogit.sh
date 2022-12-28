@@ -1,4 +1,4 @@
 git add .
-git commit -m "database folder -> reviews.js added"
+git commit -m "backend folder -> index.js done"
 git push
 git status
