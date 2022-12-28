@@ -1,6 +1,4 @@
 git add .
-git commit -m "DAO folder -> reviews.js done"
+git commit -m "database folder -> cuisine.js & restaurant.js added"
 git push
 git status
-
-# stopped in moment: 28:10
