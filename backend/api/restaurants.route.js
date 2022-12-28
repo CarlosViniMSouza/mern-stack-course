@@ -1,10 +1,13 @@
 import express from 'express';
 
+import RestaurantsControl from "./restaurants.controller.js"
+import ReviewsControl from "./reviews.controller.js"
+
 const router = express.Router();
 
-router.route("/").get(RestaurantsCtrl.apiGetRestaurants);
-router.route("/id/:id").get(RestaurantsCtrl.apiGetRestaurantById);
-router.route("/cuisines").get(RestaurantsCtrl.apiGetRestaurantCuisines);
+router.route("/").get(RestaurantsControl.apiGetRestaurants);
+router.route("/id/:id").get(RestaurantsControl.apiGetRestaurantById);
+router.route("/cuisines").get(RestaurantsControl.apiGetRestaurantCuisines);
 
 router
     .route('/review')
