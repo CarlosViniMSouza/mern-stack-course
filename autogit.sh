@@ -1,4 +1,4 @@
 git add .
-git commit -m "database folder -> cuisine.js & restaurant.js added"
+git commit -m "database folder -> reviews.js added"
 git push
 git status
