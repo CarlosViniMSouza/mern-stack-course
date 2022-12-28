@@ -1,9 +1,6 @@
-git init
 git add .
-git commit -m "MERN Stack Course - freeCodeCamp -> started"
-git branch -M main
-git remote add origin https://github.com/CarlosViniMSouza/mern-stack-course.git
-git push -u origin main
+git commit -m "DAO folder -> reviews.js done"
+git push
 git status
 
-# stopped in moment: 24:40
+# stopped in moment: 28:10
